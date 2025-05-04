@@ -35,7 +35,7 @@ class Login_Page extends StatelessWidget {
               builder: (context) {
                 return NotesHomePage();
               },
-            ),https://github.com/Mohamed27112020/task_weather
+            ),
           );
         } else if (state is LoginFailure) {
           showSnackbar(context, 'failure login ', Colors.red);
